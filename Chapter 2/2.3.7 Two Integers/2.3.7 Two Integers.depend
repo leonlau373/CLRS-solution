@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1638792805 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 2\2.3.7 two integers\binary_search.cpp
+	<iostream>
+	<vector>
+
+1638792805 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 2\2.3.7 two integers\merge_sort.cpp
+	<iostream>
+	<vector>
+
+1638793058 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 2\2.3.7 two integers\main.cpp
+	<iostream>
+	<vector>
+

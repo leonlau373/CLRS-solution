@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639210666 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 2\problem 4. inversions\main.cpp
+	<iostream>
+	<vector>
+
