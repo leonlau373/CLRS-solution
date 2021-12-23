@@ -26,7 +26,7 @@ array<array<T,m_size>,m_size> square_matrix_multiply_recursive(array<array<T,m_s
     const int n = A.size();
     array<array<T,n>,n> C;
 
-    if(n <= 1)
+    if(n <= 1) // Why not (n == 1) ?
     {
         C[0][0] = A[0][0] * B[0][0];
     }
