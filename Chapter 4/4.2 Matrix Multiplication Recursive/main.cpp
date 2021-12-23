@@ -26,7 +26,7 @@ array<array<T,m_size>,m_size> square_matrix_multiply_recursive(array<array<T,m_s
     const int n = A.size();
     array<array<T,n>,n> C;
 
-    if(n == 1)
+    if(n <= 1)
     {
         C[0][0] = A[0][0] * B[0][0];
     }
@@ -74,7 +74,6 @@ array<array<T,m_size>,m_size> square_matrix_multiply_recursive(array<array<T,m_s
             {
                 A_22[i-n/2][j-n/2] = A[i][j];
                 B_22[i-n/2][j-n/2] = B[i][j];
-                cout<<A[i][j] << ' ';
             }
         }
 
@@ -136,9 +135,18 @@ array<array<T,m_size>,m_size> square_matrix_multiply_recursive(array<array<T,m_s
 
 int main()
 {
-    array<array<int,2>,2> A{ { {1,2},{2,3} } };
-    array<array<int,2>,2> B{ { {1,2},{2,3} } };
+    array<array<int,4>,4> A{ { {1,2,0,1},{2,3,-1,-1},{0,1,0,2},{-1,-2,-1,3} } };
+    array<array<int,4>,4> B{ { {1,2,0,1},{2,3,-1,-1},{0,1,0,2},{-1,-2,-1,3} } };
 
-    array<array<int,2>,2> C = square_matrix_multiply_recursive(A,B);
+    array<array<int,4>,4> C = square_matrix_multiply_recursive(A,B);
+
+    for(int i = 0; i < C.size(); i = i + 1)
+    {
+        for(int j = 0; j < C.size() ; j = j + 1)
+        {
+            cout << C[i][j] << ' ';
+        }
+        cout << endl;
+    }
     return 0;
 }
