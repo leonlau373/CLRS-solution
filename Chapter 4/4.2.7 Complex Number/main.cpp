@@ -44,6 +44,7 @@ ComplexNum operator-(const ComplexNum& a, const ComplexNum& b)
     return {real, imaginary};
 }
 
+//This is the solution to CLRS, the rest is just.... I want to practice of using OOP.
 ComplexNum operator*(const ComplexNum& a, const ComplexNum& b)
 {
     int s1 = a.m_real + a.m_imaginary;
