@@ -1,3 +1,9 @@
+/*
+Name: Leon Lau (nya10)
+Notes: This is not a solution to the problem, but I'm just merely do a game based on this problem. Take note in this game, the bad chip will always tell a lie,
+       as this is proven if the bad chip a lie, then you need as many tests as possible to fool the professor.
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
