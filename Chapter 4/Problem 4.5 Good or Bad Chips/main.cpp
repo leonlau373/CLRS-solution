@@ -24,6 +24,7 @@ void print_arr(vector<int>& arr)
     cout << endl;
 }
 
+//Giving verdict of the chip test
 void test(vector<int>& arr, int num1, int num2)
 {
     int arr_size = arr.size();
@@ -128,9 +129,12 @@ int main()
 
     int guess_or_test = 0;
 
+    int attempts = 35;
+
     //The whole game starts here
-    while( guessed < counting(motherboard,1) )
+    while( guessed < counting(motherboard,1) && attempts > 0)
     {
+        cout << "You have " << attempts << " test(s) left" << '\n';
         cout << "Type [1] if you want to guess or type [2] if you want to test: ";
         cin >> guess_or_test;
         cout << '\n';
@@ -183,6 +187,8 @@ int main()
             test(motherboard, test1, test2);
             test(motherboard, test2, test1);
 
+            attempts = attempts - 1;
+
             cout << '\n';
 
         }
@@ -207,96 +213,10 @@ int main()
 
     return 0;
 }
+
+
+
 //DON'T READ ANYTHING BELOW THIS IF YOU WANT TO WORK ON THIS PROBLEM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
