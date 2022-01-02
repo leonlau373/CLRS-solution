@@ -1,6 +1,7 @@
 /*
 Name: Leon Lau (nya10)
-Notes: This is not a solution to the problem, but I'm just merely do a game based on this problem.
+Notes: This is not a solution to the problem, but I'm just merely do a game based on this problem. I will update the solution below this code
+       If you can figure out the strategy, pretty much you can win this game all the time, with minimum number of tests.
 */
 
 #include <iostream>
