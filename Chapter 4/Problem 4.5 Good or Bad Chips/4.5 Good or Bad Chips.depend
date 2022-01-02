@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1641122861 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\random\4.5 good or bad chips\main.cpp
-	<iostream>
-	<cstdlib>
-	<ctime>
-	<vector>
-	<string>
-
