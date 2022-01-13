@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1642068580 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 5\5.1.2 random from random(0,1)\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<vector>
+
