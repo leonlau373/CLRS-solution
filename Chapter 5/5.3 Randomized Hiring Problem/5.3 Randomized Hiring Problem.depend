@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1642267979 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 5\5.3 randomized hiring problem\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<ctime>
+	<cstdlib>
+
