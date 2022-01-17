@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1642332448 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 5\5.3 random_shuffle implementation\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<algorithm>
+
