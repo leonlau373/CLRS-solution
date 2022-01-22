@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Heapsort Algorithm Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Heapsort Algorithm Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Heapsort Algorithm Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="binary_structure.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="build_max_heap.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="header/binary_structure.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="header/build_max_heap.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="header/max_heapify.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="header/min_heapify.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="max_heapify.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="min_heapify.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

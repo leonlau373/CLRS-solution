@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1642760895 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"header/binary_structure.h"
+	"header/max_heapify.h"
+
+1642697712 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\binary_structure.cpp
+	"header/binary_structure.h"
+
+1642690303 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\header\binary_structure.h
+
+1642850129 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\header\max_heapify.h
+
+1642850024 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\max_heapify.cpp
+	<vector>
+	<algorithm>
+	"header/binary_structure.h"
+	"header/max_heapify.h"
+
+1642753625 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\min_heapify.cpp
+	<vector>
+	<algorithm>
+	"header/binary_structure.h"
+	"header/min_heapify.h"
+
+1642753633 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\header\min_heapify.h
+
+1642850024 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heapsort algorithm project\build_max_heap.cpp
+	<vector>
+	"header/max_heapify.h"
+
