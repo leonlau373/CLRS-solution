@@ -7,11 +7,13 @@
 
 using namespace std;
 
+//Constructor
 Heap::Heap(std::vector<int> heap, int heapsize) : m_heap{heap}, m_heapsize{heapsize}
 {
 
 }
 
+//Print heap array member
 void Heap::print_member()
 {
     for(int i = 0; i < m_heapsize; i = i + 1)
@@ -20,12 +22,14 @@ void Heap::print_member()
     }
 }
 
+//Print heap array index
 int Heap::get_heap_idx(int idx)
 {
     assert(idx >= 0 && "You can't input value less than 0");
     return m_heap[idx];
 }
 
+//Max heapify as usual
 void Heap::max_heapify(int i)
 {
     int l = left(i);
@@ -61,6 +65,7 @@ void Heap::max_heapify(int i)
     }
 }
 
+//Constructing max heap
 void Heap::build_max_heap()
 {
     int heap_size = m_heapsize;
@@ -70,6 +75,7 @@ void Heap::build_max_heap()
     }
 }
 
+//Sort an array using heap technique
 void Heap::heapsort()
 {
     Heap::build_max_heap();
@@ -82,11 +88,13 @@ void Heap::heapsort()
     m_heapsize = m_heap.size();
 }
 
+//Finding maximum
 int Heap::maximum()
 {
     return m_heap[0];
 }
 
+//Take that maximum value
 int Heap::extract_max()
 {
     if(m_heapsize == 0)
@@ -105,11 +113,16 @@ int Heap::extract_max()
     }
 }
 
+//Increase the priority of an assignment (or value)
 void Heap::increase_key(int i, int key)
 {
     if(key < m_heap[i])
     {
         assert(key >= m_heap[i] && "New key is smaller than current key");
+    }
+    else if(m_heapsize == 0)
+    {
+        assert(m_heapsize != 0 && "You can't insert a value on an empty heap")
     }
     else
     {
@@ -122,6 +135,7 @@ void Heap::increase_key(int i, int key)
     }
 }
 
+//Insert new assignment with some importance.
 void Heap::insert_key(int key)
 {
     m_heapsize = m_heapsize + 1;
