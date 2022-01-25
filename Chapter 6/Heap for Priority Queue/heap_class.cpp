@@ -122,7 +122,7 @@ void Heap::increase_key(int i, int key)
     }
     else if(m_heapsize == 0)
     {
-        assert(m_heapsize != 0 && "You can't insert a value on an empty heap")
+        assert(m_heapsize != 0 && "You can't insert a value on an empty heap");
     }
     else
     {
