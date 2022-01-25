@@ -64,7 +64,7 @@ int main()
             cout << "Your old value is: " << h1.get_heap_idx(index - 1);
             cout << '\n' << "Enter a new value, make sure it's bigger than your old value: ";
             cin >> new_key;
-            h1.increase_key(index,new_key);
+            h1.increase_key(index - 1,new_key);
             cout << "Your new heap is: ";
             h1.print_member();
             cout << '\n';
