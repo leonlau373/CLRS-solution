@@ -142,3 +142,17 @@ void Heap::insert_key(int key)
     m_heap.push_back(key);
     Heap::increase_key(m_heapsize - 1, key);
 }
+
+void Heap::delete_key(int idx)
+{
+    if(idx < m_heapsize && idx >= 0)
+    {
+        Heap::increase_key(idx, 100000000);
+        Heap::extract_max();
+    }
+    else
+    {
+        assert(idx >= 0 && idx < m_heapsize && "Invalid index");
+    }
+
+}

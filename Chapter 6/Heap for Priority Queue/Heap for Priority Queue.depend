@@ -4,7 +4,7 @@
 
 1643007070 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heap for priority queue\header\binary_structure.h
 
-1643015115 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heap for priority queue\main.cpp
+1643097713 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heap for priority queue\main.cpp
 	<iostream>
 	<vector>
 	<algorithm>
@@ -19,5 +19,5 @@
 	"header/heap_class.h"
 	"header/binary_structure.h"
 
-1643037186 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heap for priority queue\header\heap_class.h
+1643097713 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 6\heap for priority queue\header\heap_class.h
 

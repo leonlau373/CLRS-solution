@@ -27,6 +27,8 @@ public:
     void increase_key(int i, int key);
 
     void insert_key(int key);
+
+    void delete_key(int idx);
 };
 
 #endif // HEAP_CLASS_H_INCLUDED
