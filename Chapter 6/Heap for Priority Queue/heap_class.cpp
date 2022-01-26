@@ -143,12 +143,14 @@ void Heap::insert_key(int key)
     Heap::increase_key(m_heapsize - 1, key);
 }
 
+//To delete a value in heap DS (Exercise 6.5-8 implementation)
 void Heap::delete_key(int idx)
 {
     if(idx < m_heapsize && idx >= 0)
     {
-        Heap::increase_key(idx, 100000000);
-        Heap::extract_max();
+        Heap::increase_key(idx, 100000000); //100000000 acts as infinity in here, the reason we assign this value as infinity is described in the line after
+        Heap::extract_max(); //This make sure that our "sentinel" infinity value is getting deleted, by extracting the maximum value, which is infinity
+        //Take note in each of these operation, the max-heap property is preserved.
     }
     else
     {
