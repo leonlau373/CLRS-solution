@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1644647435 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.1 quicksort algorithm\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	"quicksort.h"
+
+1644646822 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.1 quicksort algorithm\quicksort.h
+
+1644647454 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.1 quicksort algorithm\quicksort.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	"quicksort.h"
+
