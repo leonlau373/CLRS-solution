@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1644652501 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.1.4 quicksort descending\quicksort_descending.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	"quicksort_descending.h"
+
+1644652501 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.1.4 quicksort descending\quicksort_descending.h
+
