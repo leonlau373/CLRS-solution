@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1584205420 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.3 randomized quicksort\main.cpp
+	<iostream>
+
+1644817440 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.3 randomized quicksort\quicksort.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	"quicksort.h"
+
+1644817440 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.3 randomized quicksort\quicksort.h
+
+1644817440 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.3 randomized quicksort\random.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"random.h"
+
+1644817440 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.3 randomized quicksort\random.h
+
+1644817711 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.3 randomized quicksort\random_quicksort.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	"random_quicksort.h"
+	"quicksort.h"
+	"random.h"
+
+1644817711 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\7.3 randomized quicksort\random_quicksort.h
+
