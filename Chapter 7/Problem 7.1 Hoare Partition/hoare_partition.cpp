@@ -44,25 +44,15 @@ int hoare_partition(vector<int>& arr, int beg, int fin)
 void hoare_quicksort(vector<int>& arr, int beg, int fin)
 {
     /*
-    On the edge case, where fin - beg = 1:
-    --> This is consider to be edge case, because when we have a subarray of size 2
-    --> we don't want in our quicksort algorithm, j returns to fin
-    --> If j returns to fin , the algorithm won't ever end
-    For simplicity, let we have an array of size 2, with a1 and a2 as the member:
-    Assume we have array A = {a1,a2}
+    We don't want j = fin, all the time, otherwise the algorithm won't end.
+    But take note on hoare_partition, the first while loop iteration must make left = beg, since arr[left] < pivot is always FALSE in this case.
+    Then we immediately decrement j = fin, at the very least.
 
-    Case 1: a1 < a2
-    ------ Then hoare_partition first have left = -1 , right = 2, pivot = a1
-    ------ The first do-while loop will make left = 0 (since a1 < pivot is false)
-    ------ The second do-while loop will make right = 0 (since a2 > pivot is true, and a1 > pivot is false)
-    ------ Then hoare_partition just returns 0 , which is what we want.
+    Case 1: the algo ends on first iteration of while loop
+    ------ Then j = beg to make the algo end --> algorithm returns j
 
-    Case 2: a1 > a2
-    ------ Then hoare_partition first have left = -1. right = 2, pivot = a1
-    ------ First do-while loop will make left = 0 (a1 < pivot is false)
-    ------ Second do-while loop will make right = 1 (since a2 > pivot is false)
-    ------ Swap a1 and a2 --> A = {a2,a1}
-    ------ Do this again will make right = 0 --> returns 0, which is what we want.
+    Case 2: the algo continues to 2nd iteration
+    ------ Then j must decrement further at least once, thus j != fin.
     */
 
     /*
