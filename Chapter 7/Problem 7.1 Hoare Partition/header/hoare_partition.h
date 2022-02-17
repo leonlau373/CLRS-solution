@@ -2,5 +2,6 @@
 #define HOARE_PARTITION_H_INCLUDED
 
 int hoare_partition(std::vector<int>& arr, int beg, int fin);
+void hoare_quicksort(std::vector<int>& arr, int beg, int fin);
 
 #endif // HOARE_PARTITION_H_INCLUDED
