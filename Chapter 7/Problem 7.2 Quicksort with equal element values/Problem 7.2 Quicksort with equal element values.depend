@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1645182070 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\problem 7.2 quicksort with equal element values\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<utility>
+
