@@ -26,7 +26,7 @@ pair<int,int> partition_same_quicksort(vector<int>& arr, int beg, int fin)
                 swap(arr[i], arr[left]);
                 swap(arr[i], arr[right]);
             }
-            else
+            else // The edge case where left == right, we don't want to swap twice in this case.
             {
                 swap(arr[i], arr[left]);
             }
