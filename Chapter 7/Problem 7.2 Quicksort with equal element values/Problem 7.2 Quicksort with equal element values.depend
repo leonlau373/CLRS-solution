@@ -1,7 +1,29 @@
 # depslib dependency file v1.0
-1645182070 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\problem 7.2 quicksort with equal element values\main.cpp
+1645260197 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\problem 7.2 quicksort with equal element values\main.cpp
 	<iostream>
 	<vector>
 	<algorithm>
 	<utility>
+	<cstdlib>
+	<ctime>
+	"header/quicksort_same.h"
+
+1645258439 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\problem 7.2 quicksort with equal element values\random.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1645260174 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\problem 7.2 quicksort with equal element values\quicksort_same.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<utility>
+	<cstdlib>
+	<ctime>
+	"header/random.h"
+	"header/quicksort_same.h"
+
+1645257322 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\problem 7.2 quicksort with equal element values\header\random.h
+
+1645257900 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\problem 7.2 quicksort with equal element values\header\quicksort_same.h
 
