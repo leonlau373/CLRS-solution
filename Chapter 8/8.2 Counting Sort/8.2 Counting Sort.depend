@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1645954749 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\8.2 counting sort\counting_sort.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"counting_sort.h"
+
+1645954608 d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\8.2 counting sort\counting_sort.h
+
+1645954451 source:d:\nya10 personal study\computer science\intro to algorithms\clrs\chapter 7\8.2 counting sort\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"counting_sort.h"
+
